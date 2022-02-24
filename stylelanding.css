@@ -1,0 +1,328 @@
+.body {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+     font-size: 20px;
+     color: #000;
+     margin: 0 auto; 
+     padding: 0;
+}
+
+.header {
+     background-color: black;
+     width: 100%;
+}
+
+
+.headerone {
+     background-color: #000;
+}
+
+.tittlesite {
+     font-size: 25px;
+     color: white;
+     padding: 20px;
+     margin: 0;
+     letter-spacing: 2px;
+}
+
+.navtittle {
+     color: black;
+     display: inline-block;
+     margin: 0 auto;
+     height: 100%;
+     width: 100%;
+}
+
+.navtittle ul{
+     list-style-type: none;
+     background-color:rgb(235, 235, 235);
+     text-align: right;
+     position: relative;
+     padding: 10px;
+     margin-bottom: 0%;
+}
+
+.navtittle li{
+     display: inline-block;
+     margin: 0 60px 0 0;
+
+}
+
+.navtittle li a{
+     padding: 10px 7px;
+     text-decoration: none;
+ }
+
+
+.box-content {
+     background: #0cebeb; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     height: 400px;
+     padding: 30px 30px 30px 30px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 25px;
+     text-align: center;
+     float: none;
+     }
+
+.check-out {
+     font-size: 20px;
+     text-align: center;
+     padding: 5px 5px 40px 5px;
+     margin-top: 5px;
+    }
+
+.box-tittle {
+     margin: 0;
+     padding: 65px 65px 25px 65px;
+    }
+
+.box-button {
+     padding: 1.3em 3em;
+     font-size: 12px;
+     text-transform: uppercase;
+     letter-spacing: 2.5px;
+     font-weight: 500;
+     color: #000;
+     background-color: #fff;
+     border: none;
+     border-radius: 45px;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+     outline: none;
+}
+
+/* Este es el estilo al poner el cursor encima del boton*/
+.box-button:hover {
+     background-color: rgb(219, 218, 218);
+     box-shadow: 0px 15px 20px #0cebeb;
+     color: #fff;
+     transform: translateY(-7px);
+    }
+
+.box-button:active {
+     transform: translateY(-1px);
+    }
+
+
+
+
+.tittle-main-content {
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 25px;
+     float: none;
+     text-align: center;
+     padding: 70px 30px 30px 30px;
+     color: #000;
+     height: 100px;
+     background-color: rgb(240, 236, 236);
+     margin-top: 0%;
+     border-radius: 0 0 85% 85% / 30%;
+     box-shadow: 0 0 6px 0 rgba(197, 186, 186, 0.8); 
+}
+
+.card-container {
+     display: flex;
+     padding: 50px;
+     justify-content: center;
+}
+
+.card-container div{
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: bold;
+     font-size: 22px;
+     line-height: 75px;
+     background-color: rgb(240, 236, 236); 
+     width: 300px;
+     margin: 10px;
+     text-align: center;
+     border-radius: 3%;
+     border: 1px solid rgb(109, 109, 109);
+     padding: 10px 50px 50px 10px;
+}
+
+.card-container ul{
+         list-style-type: none;
+         font-size: 18px;
+         font-weight: lighter;
+         text-transform: none;
+         text-align: left;
+         
+}
+
+/*Botones de las tarjetas*/
+.button {
+     padding: 1.3em 3em;
+     font-size: 12px;
+     text-transform: uppercase;
+     letter-spacing: 2.5px;
+     font-weight: 500;
+     color: #000;
+     background-color: #fff;
+     border: none;
+     border-radius: 45px;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+     outline: none;
+
+    }
+    
+.button:hover {
+     background-color: #2EE59D;
+     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+     color: #fff;
+     transform: translateY(-7px);
+    }
+   
+.button:active {
+     transform: translateY(-1px);
+    }
+    
+    .image-center {
+     height: 450px; /* Si no especificamos una altura la imagen no será visible */
+     background-image: url("many-cameras.jpg"); /* La imagen y su ruta */
+     background-size: cover; /* Usamos cover para que nuestra imagen no se deforme al adaptarse a cada pantalla */
+     background-position: center; /* Para centrar la imagen horizontal y verticalmente en el contenedor */
+     background-repeat: no-repeat; /* Para que no repita la imagen */
+}
+/*Contact Form*/
+    
+.form-center { 
+     justify-content: center;
+     align-items: center;
+     display: flex;
+    }
+
+h3 {
+     text-align: center;
+     margin: 10px 0;
+     font-weight: 800;
+    }
+
+form {
+     background: rgb(243, 239, 239);
+     width: 30%;
+     padding: 5px 5px 5px 5px;
+     border-radius: 10px;
+     box-shadow: 0 0 6px 0 rgba(197, 186, 186, 0.8); 
+     margin: 5px 5px 60px 5px;
+    }
+
+.form {
+     width: 50%;
+     margin: auto;
+    }
+
+form.grupo {
+     position: relative;
+     margin: 45px;
+       
+    }
+    
+input, textarea {
+     background: #fff;
+     color: #c6c6c6;
+     font-size: 18px;
+     padding: 10px 30px;
+     margin: 5px 0px;
+     display: block;
+     width: 100%;
+     border: solid 0.5px;
+     border-radius: 5px;
+     border-bottom: 1px solid var(--colorTextos);
+     resize: none;
+    } 
+
+    input:focus,textarea:focus{
+        outline: none;
+        color: rgb(94,93,93);
+    }
+     
+
+     input:focus~label, 
+     input:valid~label, 
+     textarea:focus~label, textarea:valid~label{
+      position: absolute;
+      top: -14px;
+      font-size: 12px;
+      color: #2196F3;
+     }
+ 
+    label{
+     color: var(--colorTextos);
+     font-size: 16px;
+     left: 5px;
+     top:10px;
+     transition: 0.5s ease all;
+     pointer-events: none;
+    }
+
+.button-form {
+        background: #0cebeb;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: block;
+        width: 100px;
+        height: 40px;
+        border:none;
+        color:#fff; 
+        border-radius: 4px;
+        font-size: 16px;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+.list-contact {
+     list-style-type: none;
+}
+
+.socialmedia {
+           box-sizing: content-box;
+           margin: 0;
+           padding: 0;
+           background-color: rgb(0, 0, 0);
+           display: flex;
+           justify-content: right;
+           align-items: right;
+           min-height: 10vh;
+          }
+
+.buttons-socialmedia {           
+         min-width: 300px;
+         justify-content: space-around;
+         display: flex;
+}
+
+.buttons-socialmedia a {
+           text-decoration: none;
+           font-size: 25px;
+           width: 60px;
+           height: 60px;
+           text-align: center;
+           line-height: 60px;
+           background: rgb(39, 30, 30) ;
+           color: #2EE59D;
+           border-radius: 50%;
+           box-shadow: 2px 2px 5px rgb(204, 204, 204);
+ 
+}    
+footer {
+         background-color: rgb(0, 0, 0);
+         color: rgb(255, 255, 255);
+         text-align: start;
+         padding: 40px 30px 30px 30px;
+         font-size: 18px;
+         margin: 0px 0px 0px 0px;
+         min-height: 20vh;
+         letter-spacing: 1px;
+}
